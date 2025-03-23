@@ -1,5 +1,3 @@
-import { FloatingDock } from "@/components/ui/floating-dock";
-import { Links } from "@/data/navbar-items";
 import { Socials } from "@/components/home/socials";
 import { Introduction } from "@/components/home/introduction";
 export default function Home() {

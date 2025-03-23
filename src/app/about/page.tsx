@@ -1,8 +1,5 @@
-import { FloatingDock } from "@/components/ui/floating-dock";
-import { Links } from "@/data/navbar-items";
 import { Socials } from "@/components/home/socials";
-import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
-import { Content, testimonials } from "@/data/static-items";
+import { testimonials } from "@/data/static-items";
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 function About(){
     const isHome = false;

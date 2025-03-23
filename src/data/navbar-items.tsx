@@ -1,5 +1,4 @@
 import { IconHome, IconTerminal2, IconUser, IconBriefcaseFilled, IconPhoneCall } from "@tabler/icons-react";
-import Image from "next/image";
 export const Links = [
     {
       title: "Home",
