@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
       {
         hostname: 'assets.aceternity.com',
       },
+      {
+        hostname: 'scontent.fcrk1-4.fna.fbcdn.net'
+      }
     ],
   },
 };

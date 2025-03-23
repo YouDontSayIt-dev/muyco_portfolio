@@ -2,10 +2,10 @@ import { ColourfulText } from "@/components/ui/colourful-text"
 
 export const Introduction = () => {
     return (
-        <div className="flex flex-col flex-auto gap-2">
+        <div className="flex flex-col flex-auto gap-2 text-black ">
         <div className="text-4xl">
-          <h1>
-              Hello there, my name is <ColourfulText text="Mathew James."></ColourfulText>
+          <h1 className="flex">
+              Hello there, my name is <div className="font-bold"><ColourfulText text=" Mathew James."></ColourfulText></div>
           </h1>
         </div>
         <div className="leading-auto text-lg">
