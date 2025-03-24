@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
       },
       {
         hostname: 'scontent.fcrk1-4.fna.fbcdn.net'
+      },
+      {
+        hostname: "images.unsplash.com",
       }
     ],
   },

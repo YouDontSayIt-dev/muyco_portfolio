@@ -5,6 +5,7 @@ import {
   motion,
 } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";
+import { Socials } from "../home/socials";
 
 interface TimelineEntry {
   title: string;
@@ -15,7 +16,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
-
+  const isHome = false;
   useEffect(() => {
     if (ref.current) {
       const rect = ref.current.getBoundingClientRect();
@@ -41,7 +42,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           My Work Experience
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I&apos;ve been working as a Software Developer for the past 2 years. Here&apos;s
+          I&apos;ve been professionally working as a Software Developer for the year. Here&apos;s
           a timeline of my journey.
         </p>
       </div>
@@ -80,10 +81,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
+            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-black via-gray-600 to-transparent from-[0%] via-[10%] rounded-full"
           />
         </div>
+                    
       </div>
+      
     </div>
   );
 };

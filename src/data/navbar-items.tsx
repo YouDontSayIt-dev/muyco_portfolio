@@ -1,4 +1,4 @@
-import { IconHome, IconTerminal2, IconUser, IconBriefcaseFilled, IconPhoneCall } from "@tabler/icons-react";
+import { IconHome, IconFolder, IconUser, IconBriefcaseFilled, IconPhoneCall } from "@tabler/icons-react";
 export const Links = [
     {
       title: "Home",
@@ -24,15 +24,8 @@ export const Links = [
     {
         title: "Projects",
         icon: (
-          <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <IconFolder className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
         href: "/projects",
-    },
-    {
-      title: "Contact",
-      icon: (
-        <IconPhoneCall className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "/",
     },
   ];
