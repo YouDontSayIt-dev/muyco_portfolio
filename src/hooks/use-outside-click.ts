@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 export const useOutsideClick = (
+  /* eslint-disable  @typescript-eslint/no-explicit-any */
   ref: any,
-  callback: Function
+  callback: any
 ) => {
   useEffect(() => {
     const listener = (event: any) => {

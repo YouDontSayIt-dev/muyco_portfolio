@@ -1,4 +1,4 @@
-import { IconHome, IconFolder, IconUser, IconBriefcaseFilled, IconPhoneCall } from "@tabler/icons-react";
+import { IconHome, IconFolder, IconUser, IconBriefcaseFilled } from "@tabler/icons-react";
 export const Links = [
     {
       title: "Home",
