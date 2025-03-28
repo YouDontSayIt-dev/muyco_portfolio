@@ -1,31 +1,27 @@
 import { IconHome, IconFolder, IconUser, IconBriefcaseFilled } from "@tabler/icons-react";
-export const Links = [
+export const navItems = [
     {
-      title: "Home",
-      icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "/",
+      name: "Home",
+      link: "/",
+      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      title: "About",
-      icon: (
-        <IconUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "/about",
+      name: "About",
+      link: "/about",
+      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      title: "Experience",
+      name: "Experience",
+      link: "/experience",
       icon: (
-        <IconBriefcaseFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBriefcaseFilled className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
-      href: "/experience",
     },
     {
-        title: "Projects",
-        icon: (
-          <IconFolder className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-        ),
-        href: "/projects",
+      name: "Projects",
+      link: "/projects",
+      icon: (
+        <IconFolder className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
     },
   ];
