@@ -3,8 +3,7 @@ import React, { JSX, useState } from "react";
 import {
   motion,
   AnimatePresence,
-  useScroll,
-  useMotionValueEvent,
+  // useScroll,
 } from "motion/react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -20,9 +19,8 @@ export const FloatingNav = ({
   }[];
   className?: string;
 }) => {
-  const { scrollYProgress } = useScroll();
 
-  const [visible, setVisible] = useState(true);
+  const [visible] = useState(true);
 
 
   return (
@@ -44,6 +42,7 @@ export const FloatingNav = ({
           className
         )}
       >
+        { /* eslint-disable  @typescript-eslint/no-explicit-any */}
         {navItems.map((navItem: any, idx: number) => (
           <Link
             key={`link=${idx}`}
