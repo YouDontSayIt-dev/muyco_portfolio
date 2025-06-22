@@ -81,10 +81,27 @@ export const data = [
     content: (
       <div>
         <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-normal mb-2">
+          Procter & Gamble Philippines
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-md font-normal mb-8">
+          IT Specialist | Jun 2025 - Present
+        </p>
+        {/* <div className="grid xl:grid-cols-1 lg:grid-cols-1 md:grid-cols-1 grid-cols-1 gap-2 text-justify">
+        I worked as a Full-Stack Developer at Golden Suntec, where I gained hands-on experience in enterprise development, stored procedures, and the .NET environment.
+        <br/>During my time here, I learned invaluable lessons from my senior mentors, who introduced me to best coding practices for writing readable, maintainable, and scalable code. This experience significantly shaped my approach to software development and problem-solving.
+        </div> */}
+      </div>
+    ),
+  },
+  {
+    title: "2024",
+    content: (
+      <div>
+        <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-normal mb-2">
           Golden Suntec Solutions Inc. 
         </p>
         <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-md font-normal mb-8">
-          C# Developer | Jul 2024 - Present
+          C# Developer | Jul 2024 - Jun 2025
         </p>
         <div className="grid xl:grid-cols-1 lg:grid-cols-1 md:grid-cols-1 grid-cols-1 gap-2 text-justify">
         I worked as a Full-Stack Developer at Golden Suntec, where I gained hands-on experience in enterprise development, stored procedures, and the .NET environment.
