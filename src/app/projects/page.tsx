@@ -1,10 +1,10 @@
 import { Socials } from "@/components/home/socials";
 import { Card, Carousel } from "@/components/ui/apple-cards-carousel";
-import { projectsData } from "@/data/static-items";
+import { PersonalProjects as Data } from "./static-data";
 
 function Projects(){
     const isHome = false;
-    const cards = projectsData.map((card, index) => (
+    const cards = Data.map((card, index) => (
         <Card key={card.src} card={card} index={index} />
       ));
     return(

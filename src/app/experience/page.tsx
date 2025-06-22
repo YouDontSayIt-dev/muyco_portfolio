@@ -1,13 +1,13 @@
 import { Socials } from "@/components/home/socials";
 import { Timeline } from "@/components/ui/timeline";
-import { data } from "@/data/static-items";
+import { WorkExperiences as Data } from "./statis-data";
 
 function Experience() {
     const isHome = false;
     return(
         <div className="w-full h-full bg-linear-to-r/hsl from-white to-[#E8E4C9]">
             <div>
-            <Timeline data={data} />
+            <Timeline data={Data} />
             </div>
             <footer className=" bottom-2 p-4 gap-8 text-sm">
                 <div className="flex items-center justify-center p-4">
