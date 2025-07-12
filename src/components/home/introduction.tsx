@@ -9,7 +9,7 @@ export const Introduction = () => {
           </h1>
         </div>
         <div className="leading-auto text-lg">
-          <p> I&apos;m a Full-Stack Developer & DevOps Engineer based in the Philippines. <br/> Passionate about creating, automating, and always working on exciting side projects.</p>
+          <p> I&apos;m a  Project Manager, Full-Stack Developer, and DevOps Engineer based in the Philippines. <br/> Passionate about creating, automating, and always working on exciting side projects.</p>
         </div>
       </div>
     )
